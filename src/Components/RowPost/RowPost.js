@@ -18,7 +18,7 @@ function RowPost(props) {
     axios.get(`movie/${id}/videos?api_key=${API_KEY}&language=en-US`).then(response => {
       setMovid(response.data.results[0].key)
     })
-    const data = trending.filter(item => item.id == id)
+    const data = trending.filter(item => item.id === id)
     setMovieDetail(data)
     setIsModal(true);
   };

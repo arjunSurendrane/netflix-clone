@@ -1,0 +1,23 @@
+.footer {
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.fullFooter {
+  background-color: black;
+}
+.s-icon {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.copy-right {
+  color: white;
+}
+
+.copyRight {
+  text-align: center;
+  padding-bottom: 30px;
+}
